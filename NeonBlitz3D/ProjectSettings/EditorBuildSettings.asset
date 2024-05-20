@@ -14,4 +14,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scene2.unity
     guid: b7fff50ed013a9247b738de73c5d4b40
+  - enabled: 1
+    path: Assets/Neon Blitz/Assets/Scenes/Niveau_1.unity
+    guid: a83935be1640f3245aedad357e450f57
+  - enabled: 1
+    path: Assets/Neon Blitz/Assets/Scenes/Niveau_2.unity
+    guid: ac68dc328582bab4db715c82e824bacc
+  - enabled: 1
+    path: Assets/Neon Blitz/Assets/Scenes/Niveau_3.unity
+    guid: 4ccf2483213db8546b513feb5f262973
+  - enabled: 1
+    path: Assets/Neon Blitz/Assets/Scenes/Niveau_fin.unity
+    guid: 81ec4a29538dcde4e9cc98e4b99d0d5a
   m_configObjects: {}

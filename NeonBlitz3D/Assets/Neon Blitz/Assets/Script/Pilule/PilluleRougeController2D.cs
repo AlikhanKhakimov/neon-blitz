@@ -24,7 +24,7 @@ public class PilluleRougeController2D : MonoBehaviour
 
     }
 
-    private IEnumerator AppliquerBuffForDurée()
+    private IEnumerator AppliquerBuffForDurée2D()
     {
         // Les pouvoirs commencent
         EnemiDestroy.SetDoubleDommage(true);
@@ -33,7 +33,7 @@ public class PilluleRougeController2D : MonoBehaviour
         gameObject.GetComponent<Renderer>().enabled = false;
 
         // Le UI pour la pillule va être afficher
-        TextSecRouge.textSecRouge.MontrerUISecRouge(true);
+        TextSecRouge2D.textSecRouge2D.MontrerUISecRouge2D(true);
 
         // Donné une duréer à ce pouvoir (Ici le joueur a 5 secondes)
         yield return new WaitForSeconds(duréePouvoirPilluleRouge);
@@ -43,7 +43,7 @@ public class PilluleRougeController2D : MonoBehaviour
         PlayerMovement.SetDoubleVitesseJoueur(false);
 
         // Le UI pour la pillule va être cacher
-        TextSecRouge.textSecRouge.MontrerUISecRouge(false);
+        TextSecRouge2D.textSecRouge2D.MontrerUISecRouge2D(false);
 
         // Detruire l'objet pillule rouge
         Destroy(gameObject);
@@ -54,7 +54,7 @@ public class PilluleRougeController2D : MonoBehaviour
         if (!isTriggered && collision.gameObject.CompareTag("Player"))
         {
             isTriggered = true;
-            StartCoroutine(AppliquerBuffForDurée());
+            StartCoroutine(AppliquerBuffForDurée2D());
         }
     }
 }
