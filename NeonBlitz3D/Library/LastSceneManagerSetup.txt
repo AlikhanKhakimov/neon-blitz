@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Neon Blitz/Assets/Scenes/Niveau_2.unity
+- path: Assets/Neon Blitz/Assets/Scenes/Niveau_3.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
