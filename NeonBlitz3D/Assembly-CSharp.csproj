@@ -58,32 +58,48 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Neon Blitz\Assets\Script\Balle\BalleScript.cs" />
     <Compile Include="Assets\Script\AffichageDestroy\ChiffreAffichageDommage.cs" />
+    <Compile Include="Assets\Neon Blitz\Assets\Script\Balle\BalleEnnemi.cs" />
     <Compile Include="Assets\Script\ChangementScene\HellicopeteEscape.cs" />
+    <Compile Include="Assets\Neon Blitz\Assets\Script\Movement\PlayerRotation.cs" />
     <Compile Include="Assets\Script\UIText\TextSecRouge.cs" />
     <Compile Include="Assets\Script\ChangementScene\HeliicoptereController.cs" />
     <Compile Include="Assets\Script\Ennemi\TirTête.cs" />
+    <Compile Include="Assets\Neon Blitz\Assets\Script\Movement\EnemieMovement.cs" />
+    <Compile Include="Assets\Neon Blitz\Assets\Script\UIText\TextSecVerte2D.cs" />
+    <Compile Include="Assets\Neon Blitz\Assets\Script\Destroy\EnemiDestroy.cs" />
     <Compile Include="Assets\Script\Ennemi\Poupée.cs" />
+    <Compile Include="Assets\Neon Blitz\Assets\Script\Destroy\JoueurDestroy.cs" />
     <Compile Include="Assets\Script\Animation\AnimatorState.cs" />
     <Compile Include="Assets\Polytope Studio\Lowpoly_Demos\Environment_Free\Helpers\MouseLook.cs" />
     <Compile Include="Assets\Script\Mouvement\BougerSouris.cs" />
+    <Compile Include="Assets\Neon Blitz\Assets\AudioManager.cs" />
     <Compile Include="Assets\Script\Fusille\Pistolet.cs" />
+    <Compile Include="Assets\Neon Blitz\Assets\Script\Camera\CameraController.cs" />
     <Compile Include="Assets\Script\UIText\TextSecVerte.cs" />
     <Compile Include="Assets\Script\BarreVie.cs" />
     <Compile Include="Assets\Script\Ennemi\Ennemi.cs" />
     <Compile Include="Assets\Script\Pillule\PilluleVerteController.cs" />
+    <Compile Include="Assets\Neon Blitz\Assets\Script\Pilule\PilluleVerteController2D.cs" />
+    <Compile Include="Assets\Neon Blitz\Assets\Script\UIText\TextSecRouge2D.cs" />
     <Compile Include="Assets\Script\UIText\NombreEnnemi.cs" />
     <Compile Include="Assets\Polytope Studio\Lowpoly_Demos\Environment_Free\Helpers\PlayerMovement.cs" />
     <Compile Include="Assets\Script\Ennemi\TirTête1.cs" />
     <Compile Include="Assets\Script\AffichageDestroy\AffichageVieZombie.cs" />
     <Compile Include="Assets\Script\Fusille\ArmeFusille.cs" />
+    <Compile Include="Assets\Neon Blitz\Assets\Script\Pilule\PilluleRougeController2D.cs" />
+    <Compile Include="Assets\Neon Blitz\Assets\Script\Movement\PlayerMovement.cs" />
+    <Compile Include="Assets\Neon Blitz\Assets\Script\UIText\TextNbrEnnemi.cs" />
     <Compile Include="Assets\Script\Pillule\PilluleRougeController.cs" />
+    <Compile Include="Assets\Neon Blitz\Assets\Script\Dommage\DétruireChiffreDommage.cs" />
     <Compile Include="Assets\GameManagerScript.cs" />
     <Compile Include="Assets\Script\Mouvement\JoueurrMouvement.cs" />
     <Compile Include="Assets\Script\Mouvement\StatistiqueJoueur.cs" />
     <Compile Include="Assets\Assets\ToonTastic - Potion Pack\Scripts\Liquid In Bottle\Wobble.cs" />
     <Compile Include="Assets\Script\Fusille\ChangementArme.cs" />
     <Compile Include="Assets\Script\Ennemi\Poupée1.cs" />
+    <Compile Include="Assets\Neon Blitz\Assets\Script\Balle\Coups.cs" />
     <Compile Include="Assets\Script\Mouvement\JoueurMouvement.cs" />
     <Compile Include="Assets\Script\Récipient.cs" />
   </ItemGroup>
@@ -98,6 +114,7 @@
     <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Water_Shader.shader" />
     <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Vegetation_Flowers_Shader.shader" />
     <None Include="Assets\Assets\ToonTastic - Potion Pack\Scripts\Liquid In Bottle\Liquid.shader" />
+    <None Include="Assets\Neon Blitz\ProjectSettings\ProjectVersion.txt" />
     <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Rock_Shader.shader" />
   </ItemGroup>
   <ItemGroup>

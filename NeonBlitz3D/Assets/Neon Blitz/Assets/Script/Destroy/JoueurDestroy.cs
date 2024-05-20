@@ -17,30 +17,26 @@ public class JoueurDestroy : MonoBehaviour
     private bool isDead;
 
     public GameManagerScript gameManager;
-    // Start is called before the first frame update
 
-    // Quand le joueur va prendre la pillule rouge, l'ennemi peut prendre 2 fois plus de dommage
     private static bool peutPrendreMoitiéDommage = false;
+
     void Start()
     {
 
     }
 
-    // Update is called once per frame
     void Update()
     {
 
     }
 
-    // Une valeur de dommage pris, on va dire 20, le 20 va être converti en String, un texte.
     public void PrendreDommage(int dommage)
     {
-
         if (peutPrendreMoitiéDommage)
         {
             dommage /= 2;
         }
-        // On passe le chiffre de dommage pris dans notre méthode MontrerDommage()
+
         MontrerDommage(dommage.ToString());
         pointVie -= dommage;
         if (pointVie <= 0 && !isDead)
@@ -48,9 +44,8 @@ public class JoueurDestroy : MonoBehaviour
             isDead = true;
             audioManager.PlaySFX(audioManager.death);
             gameObject.SetActive(false);
-            gameManager.gameOver();
+            gameManager.GameOver();
             Debug.Log("Dead");
-
         }
     }
 
