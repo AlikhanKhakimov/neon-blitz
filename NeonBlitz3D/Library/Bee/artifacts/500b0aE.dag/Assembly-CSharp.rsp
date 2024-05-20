@@ -354,6 +354,7 @@
 "Assets/Neon Blitz/Assets/Script/UIText/TextSecVerte2D.cs"
 "Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/MouseLook.cs"
 "Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/PlayerMovement.cs"
+"Assets/Scenes/Scripts/EventMenuPrincipal.cs"
 "Assets/Script/AffichageDestroy/AffichageVieZombie.cs"
 "Assets/Script/AffichageDestroy/ChiffreAffichageDommage.cs"
 "Assets/Script/Animation/AnimatorState.cs"
