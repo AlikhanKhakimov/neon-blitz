@@ -1,0 +1,2 @@
+*.dylib filter=lfs diff=lfs merge=lfs -text
+NeonBlitz3D/Assets/Neon[[:space:]]Blitz/Library/ArtifactDB filter=lfs diff=lfs merge=lfs -text
