@@ -103,6 +103,7 @@
     <Compile Include="Assets\Neon Blitz\Assets\Script\Balle\Coups.cs" />
     <Compile Include="Assets\Script\Mouvement\JoueurMouvement.cs" />
     <Compile Include="Assets\Script\Récipient.cs" />
+    <Compile Include="Assets\Script\CameraController\CameraChange.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

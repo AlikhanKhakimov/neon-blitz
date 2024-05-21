@@ -359,6 +359,7 @@
 "Assets/Script/AffichageDestroy/ChiffreAffichageDommage.cs"
 "Assets/Script/Animation/AnimatorState.cs"
 "Assets/Script/BarreVie.cs"
+"Assets/Script/CameraController/CameraChange.cs"
 "Assets/Script/ChangementScene/HeliicoptereController.cs"
 "Assets/Script/ChangementScene/HellicopeteEscape.cs"
 "Assets/Script/Ennemi/Ennemi.cs"
