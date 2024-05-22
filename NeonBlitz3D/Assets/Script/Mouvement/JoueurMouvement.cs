@@ -13,8 +13,7 @@ public class JoueurrMouvement : MonoBehaviour
 
     public Transform contrôleTerre;
     public float distanceSol = 0.4f;
-    public LayerMask masqueSol;    
-
+    public LayerMask masqueSol;
     Vector3 velocité;
     bool estMisTerre;
 
@@ -23,6 +22,8 @@ public class JoueurrMouvement : MonoBehaviour
 
     void Start()
     {
+        
+        
         vitesseNormal = vitesse;
     }
     void Update()
@@ -45,6 +46,7 @@ public class JoueurrMouvement : MonoBehaviour
 
         float x = Input.GetAxis("Horizontal");
         float z = Input.GetAxis("Vertical");
+        
 
         Vector3 move = transform.right * x + transform.forward * z;
 
@@ -53,7 +55,8 @@ public class JoueurrMouvement : MonoBehaviour
         if (Input.GetButtonDown("Jump") && estMisTerre)
 		{
             velocité.y = Mathf.Sqrt(hauteurSaut * -2f * gravité);
-		}
+           
+        }
 
         velocité.y += gravité * Time.deltaTime;
 

@@ -1,0 +1,539 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.35f1 (157b46ce122a) revision 1407814'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16333 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+Z:\Program Files\2021.3.35f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker19
+-projectPath
+Z:/Utilisateur/hamid/Bureau/jeu final/jeu-final/NeonBlitz3D
+-logFile
+Logs/AssetImportWorker19.log
+-srvPort
+53082
+Successfully changed project path to: Z:/Utilisateur/hamid/Bureau/jeu final/jeu-final/NeonBlitz3D
+Z:/Utilisateur/hamid/Bureau/jeu final/jeu-final/NeonBlitz3D
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [41428] Host "[IP] 192.168.44.1 [Port] 0 [Flags] 2 [Guid] 356553115 [EditorId] 356553115 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QFF8DP8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [41428] Host "[IP] 192.168.44.1 [Port] 0 [Flags] 2 [Guid] 356553115 [EditorId] 356553115 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QFF8DP8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 130.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.35f1 (157b46ce122a)
+[Subsystems] Discovering subsystems at path Z:/Program Files/2021.3.35f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path Z:/Utilisateur/hamid/Bureau/jeu final/jeu-final/NeonBlitz3D/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1e89)
+    Vendor:   NVIDIA
+    VRAM:     5958 MB
+    Driver:   31.0.15.3623
+Initialize mono
+Mono path[0] = 'Z:/Program Files/2021.3.35f1/Editor/Data/Managed'
+Mono path[1] = 'Z:/Program Files/2021.3.35f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'Z:/Program Files/2021.3.35f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56684
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: Z:/Program Files/2021.3.35f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002370 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 108.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.695 seconds
+Domain Reload Profiling:
+	ReloadAssembly (695ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (496ms)
+			LoadAssemblies (106ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (125ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (303ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (109ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (145ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005156 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 104.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.449 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1449ms)
+		BeginReloadAssembly (144ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1199ms)
+			LoadAssemblies (118ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (209ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (823ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (105ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (612ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2896 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 46 unused Assets / (164.3 KB). Loaded Objects now: 3380.
+Memory consumption went from 169.7 MB to 169.5 MB.
+Total: 3.657300 ms (FindLiveObjects: 0.280400 ms CreateObjectMapping: 0.100800 ms MarkObjects: 3.114900 ms  DeleteObjects: 0.160000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 16804.341275 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_2.png
+  artifactKey: Guid(7b880c6510cd65e4b91156f80699aa15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_2.png using Guid(7b880c6510cd65e4b91156f80699aa15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cbaed8e450184a51ffdffc50bd7accd') in 0.485952 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/flashlight/meleeattack/survivor-meleeattack_flashlight_6.png
+  artifactKey: Guid(1a21270454c4f7c419a779ed53d64bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/flashlight/meleeattack/survivor-meleeattack_flashlight_6.png using Guid(1a21270454c4f7c419a779ed53d64bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62d32e21aabb05947c9455a0ad8e8455') in 0.120163 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/flashlight/meleeattack/survivor-meleeattack_flashlight_9.png
+  artifactKey: Guid(b8b5b3d831bbadb43b4171114607a034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/flashlight/meleeattack/survivor-meleeattack_flashlight_9.png using Guid(b8b5b3d831bbadb43b4171114607a034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd31a4ff406f1ce6bde591309a16870e9') in 0.219128 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/feet/walk/survivor-walk_5.png
+  artifactKey: Guid(087b99c26cff3144985a6f5d4a572fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/feet/walk/survivor-walk_5.png using Guid(087b99c26cff3144985a6f5d4a572fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffdfc4183d32d015026f8e3fed7f4446') in 0.069162 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_11.png
+  artifactKey: Guid(88c3ac54a85557049996cbf981c51145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_11.png using Guid(88c3ac54a85557049996cbf981c51145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e171f392c44e79288d51fb91e4836f42') in 0.094464 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_5.png
+  artifactKey: Guid(41d9843bf7f7cd8498284d4bfdb10c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_5.png using Guid(41d9843bf7f7cd8498284d4bfdb10c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c693f9c6debd89bce280b6c437e2005') in 0.021310 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_8.png
+  artifactKey: Guid(5c3f735484e18384580369094e4afadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_8.png using Guid(5c3f735484e18384580369094e4afadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71c57f8dedc7ac9581b8c975a2fb175c') in 0.095627 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/flashlight/meleeattack/survivor-meleeattack_flashlight_5.png
+  artifactKey: Guid(a4964a83795f1c44ab16e358ed5f8b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/flashlight/meleeattack/survivor-meleeattack_flashlight_5.png using Guid(a4964a83795f1c44ab16e358ed5f8b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26c3453bec58f76d15ebba5fb5a4024c') in 0.095728 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_3.png
+  artifactKey: Guid(ab60158777e4ff742b01c165e6e37366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_3.png using Guid(ab60158777e4ff742b01c165e6e37366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bac713dd422a38c66ee1e3d2f11610c') in 0.098861 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_10.png
+  artifactKey: Guid(28b24d0bc88a54343bee017a89e312e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_10.png using Guid(28b24d0bc88a54343bee017a89e312e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '996e240cd961645f270e4593a17c1762') in 0.168098 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_9.png
+  artifactKey: Guid(cd240c6716206784c8260873016b7d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_9.png using Guid(cd240c6716206784c8260873016b7d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa43e4cc14cc107a6e4e91caf39c037f') in 0.154775 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/feet/walk/survivor-walk_14.png
+  artifactKey: Guid(e0d5daca5403cbf43a736ddfbee3a773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/feet/walk/survivor-walk_14.png using Guid(e0d5daca5403cbf43a736ddfbee3a773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ea69a64151b5d184254199ce6cffc4c') in 0.095853 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_8.png
+  artifactKey: Guid(676aceb0c000a4642acdca2acd8e8ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_8.png using Guid(676aceb0c000a4642acdca2acd8e8ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42bef2d52da27b4c85e48882fcc179c7') in 0.194692 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.189454 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_18.png
+  artifactKey: Guid(60bc10dc56eaea1498733ed31db8e926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_18.png using Guid(60bc10dc56eaea1498733ed31db8e926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f0bab334ab497348ad7471a80768fef') in 0.184678 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_8.png
+  artifactKey: Guid(b97172d890300854db9099b45b888cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_8.png using Guid(b97172d890300854db9099b45b888cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd57df9ad98e3758c791fb46a0365b2d') in 0.109148 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/feet/run/survivor-run_0.png
+  artifactKey: Guid(ea3c4cb6b34f1874dabb328ad3a57f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/feet/run/survivor-run_0.png using Guid(ea3c4cb6b34f1874dabb328ad3a57f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5477e64839b03386775e935a2f4a46a') in 0.044831 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_15.png
+  artifactKey: Guid(7c45e2af3a62c1348a66118703dab92d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_15.png using Guid(7c45e2af3a62c1348a66118703dab92d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54e554484ad2db32995ccfc4338c09a4') in 0.369250 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_11.png
+  artifactKey: Guid(12942a854a9c6b448ad5c59db108ee96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_11.png using Guid(12942a854a9c6b448ad5c59db108ee96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6887c029fa4202c9f3a2a6d980651e08') in 0.058299 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_2.png
+  artifactKey: Guid(e3afd58e665b69b47b843a7d620f69f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_2.png using Guid(e3afd58e665b69b47b843a7d620f69f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49caa8ca25b4df99d0ac8c22670bbc9a') in 0.062633 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_13.png
+  artifactKey: Guid(fcab5901630f7fa4f87a04e2ac46b528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_13.png using Guid(fcab5901630f7fa4f87a04e2ac46b528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ec93efabf4b42ac972ce49ba41ebb40') in 0.091919 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_18.png
+  artifactKey: Guid(dd5bf4117f01f4b429e9762bf42aebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_18.png using Guid(dd5bf4117f01f4b429e9762bf42aebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1702ba5afb76f2777848764ddf144ec') in 0.063668 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/feet/run/survivor-run_9.png
+  artifactKey: Guid(4a0b1fc4acf3f654a9c958180fb5dbe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/feet/run/survivor-run_9.png using Guid(4a0b1fc4acf3f654a9c958180fb5dbe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d863aa97d3d3f0eda84530d16c8aa2a') in 0.057527 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/handgun/reload/survivor-reload_handgun_3.png
+  artifactKey: Guid(8c5dac02fa03a5049a69786d8ddff35a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/handgun/reload/survivor-reload_handgun_3.png using Guid(8c5dac02fa03a5049a69786d8ddff35a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c43689b20447efe3a42b709a3a4aa010') in 0.043806 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_13.png
+  artifactKey: Guid(5e15679154648c1419f572bf868d56f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_13.png using Guid(5e15679154648c1419f572bf868d56f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfd5909d665644e97842a96926cad38f') in 0.146069 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_8.png
+  artifactKey: Guid(ccafc5334e8b88e4cbbcf1d57fc44730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_8.png using Guid(ccafc5334e8b88e4cbbcf1d57fc44730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02f6d89627025e7c1bf8f2b895072012') in 0.159193 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/handgun/reload/survivor-reload_handgun_11.png
+  artifactKey: Guid(1bae11c78328f154ca381570dcd53482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/handgun/reload/survivor-reload_handgun_11.png using Guid(1bae11c78328f154ca381570dcd53482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f63a25986182f9f1f46920ab6ffa1e9b') in 0.097242 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_4.png
+  artifactKey: Guid(f9c0ccf347081af4abce8972f0e5b38e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_4.png using Guid(f9c0ccf347081af4abce8972f0e5b38e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69c1a7b280c74fac906d40418c3c2db4') in 0.092654 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/feet/run/survivor-run_1.png
+  artifactKey: Guid(409558e75bfee494fa47fe831d53f9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/feet/run/survivor-run_1.png using Guid(409558e75bfee494fa47fe831d53f9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9c4a3f1506f62670f8075a8ea062bcd') in 0.032162 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_18.png
+  artifactKey: Guid(d00f1250f4747a74693bfe00a09f59c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_18.png using Guid(d00f1250f4747a74693bfe00a09f59c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11ce320754b9620657855056f3fb01ef') in 0.066375 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/rifle/reload/survivor-reload_rifle_3.png
+  artifactKey: Guid(1d895315689fabf47aff655eecc40db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/rifle/reload/survivor-reload_rifle_3.png using Guid(1d895315689fabf47aff655eecc40db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '394434794d473d60399d526680a46097') in 0.219921 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/rifle/reload/survivor-reload_rifle_16.png
+  artifactKey: Guid(2be4a1568458b984581eed9ef019a6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/rifle/reload/survivor-reload_rifle_16.png using Guid(2be4a1568458b984581eed9ef019a6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f1a81e9789620c3d9b76788c313ce0c') in 0.092578 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_6.png
+  artifactKey: Guid(3310e2c935d189f44b0a8374f5ede807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_6.png using Guid(3310e2c935d189f44b0a8374f5ede807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7a97d20e6a02eca608b6cdc79668ed7') in 0.085045 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_0.png
+  artifactKey: Guid(4f7721e8e29f60b478c4d157c0a09e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_0.png using Guid(4f7721e8e29f60b478c4d157c0a09e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cd8ab45cdc94f07b1e5f086f865eec1') in 0.111523 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/rifle/reload/survivor-reload_rifle_2.png
+  artifactKey: Guid(81a80dd3e535bf940918d48116237db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/rifle/reload/survivor-reload_rifle_2.png using Guid(81a80dd3e535bf940918d48116237db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cffbd841fe5553f005829c8cec6c7d2') in 0.078476 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_2.png
+  artifactKey: Guid(001b22554f34da140bab3497374cd0ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_2.png using Guid(001b22554f34da140bab3497374cd0ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b3bf34f2e43f7734b984d438aeea27e') in 0.068613 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/rifle/reload/survivor-reload_rifle_14.png
+  artifactKey: Guid(462ce0f3cf59a1c4ea87b8db6e01b808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/rifle/reload/survivor-reload_rifle_14.png using Guid(462ce0f3cf59a1c4ea87b8db6e01b808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88c5523f05f91c35f9a89c7e66ac5ae6') in 0.194472 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_7.png
+  artifactKey: Guid(764138b7baa7d1d4fb0e7049d64df35b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_7.png using Guid(764138b7baa7d1d4fb0e7049d64df35b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a84eceb006fa5fb47cfabf3491140b6') in 0.064659 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/handgun/reload/survivor-reload_handgun_7.png
+  artifactKey: Guid(f3f0f69a2b0664e44bdc98661b68df56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/handgun/reload/survivor-reload_handgun_7.png using Guid(f3f0f69a2b0664e44bdc98661b68df56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6abdd5fcc53618a0cad3f1d44745ba72') in 0.075275 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_14.png
+  artifactKey: Guid(dca3e06bbc22b5543bea0de5e131bb03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_14.png using Guid(dca3e06bbc22b5543bea0de5e131bb03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaeb34d4c376968c5787fc9813eabe41') in 0.087241 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/rifle/reload/survivor-reload_rifle_6.png
+  artifactKey: Guid(fae99e7b4b6df584d88ed3ffb4e3d6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/rifle/reload/survivor-reload_rifle_6.png using Guid(fae99e7b4b6df584d88ed3ffb4e3d6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a6aa29b7392ece12cbf883150d0a9af') in 0.025898 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/handgun/reload/survivor-reload_handgun_0.png
+  artifactKey: Guid(99fbecb3ba48b4248b8e207e405e2880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/handgun/reload/survivor-reload_handgun_0.png using Guid(99fbecb3ba48b4248b8e207e405e2880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be8358b56799cdc90a2f0c68bff7b7df') in 0.057751 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_17.png
+  artifactKey: Guid(101a263cd04bc2d4eb21572e8aea8862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_17.png using Guid(101a263cd04bc2d4eb21572e8aea8862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5d63d1c387346ffa0d67ec2144afa4c') in 0.071807 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 52.821179 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/handgun/shoot/survivor-shoot_handgun_2.png
+  artifactKey: Guid(cbad6be9984fbeb448f1cfe6ad4be327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/handgun/shoot/survivor-shoot_handgun_2.png using Guid(cbad6be9984fbeb448f1cfe6ad4be327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e276cf77fdf1ac5f68d5ede370464c04') in 0.207086 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/rifle/shoot/survivor-shoot_rifle_1.png
+  artifactKey: Guid(7a4e1877d712a5e4e964f58f46722323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/rifle/shoot/survivor-shoot_rifle_1.png using Guid(7a4e1877d712a5e4e964f58f46722323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44cd8e8a6718ecd023a4df254fabdd68') in 0.093670 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_0.png
+  artifactKey: Guid(c55fc783c8f5f4647874855f5ab090bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_0.png using Guid(c55fc783c8f5f4647874855f5ab090bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7908670f2a3536bca394fcb3b65ad01d') in 0.105789 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/rifle/shoot/survivor-shoot_rifle_2.png
+  artifactKey: Guid(c87bef9b59fa5f3449911eaf1d6faab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Top_Down_Survivor/rifle/shoot/survivor-shoot_rifle_2.png using Guid(c87bef9b59fa5f3449911eaf1d6faab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c16f70ed16e08e3973ad2dfa4b91fc2') in 0.061569 seconds 
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

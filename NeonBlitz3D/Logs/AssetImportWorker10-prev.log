@@ -1,0 +1,453 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.35f1 (157b46ce122a) revision 1407814'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16333 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+Z:\Program Files\2021.3.35f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker10
+-projectPath
+Z:/Utilisateur/hamid/Bureau/jeu final/jeu-final/NeonBlitz3D
+-logFile
+Logs/AssetImportWorker10.log
+-srvPort
+53082
+Successfully changed project path to: Z:/Utilisateur/hamid/Bureau/jeu final/jeu-final/NeonBlitz3D
+Z:/Utilisateur/hamid/Bureau/jeu final/jeu-final/NeonBlitz3D
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [31424] Host "[IP] 192.168.44.1 [Port] 0 [Flags] 2 [Guid] 422561448 [EditorId] 422561448 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QFF8DP8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [31424] Host "[IP] 192.168.44.1 [Port] 0 [Flags] 2 [Guid] 422561448 [EditorId] 422561448 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QFF8DP8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 101.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.35f1 (157b46ce122a)
+[Subsystems] Discovering subsystems at path Z:/Program Files/2021.3.35f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path Z:/Utilisateur/hamid/Bureau/jeu final/jeu-final/NeonBlitz3D/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1e89)
+    Vendor:   NVIDIA
+    VRAM:     5958 MB
+    Driver:   31.0.15.3623
+Initialize mono
+Mono path[0] = 'Z:/Program Files/2021.3.35f1/Editor/Data/Managed'
+Mono path[1] = 'Z:/Program Files/2021.3.35f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'Z:/Program Files/2021.3.35f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56692
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: Z:/Program Files/2021.3.35f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002387 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 102.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.871 seconds
+Domain Reload Profiling:
+	ReloadAssembly (871ms)
+		BeginReloadAssembly (111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (671ms)
+			LoadAssemblies (111ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (113ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (495ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (102ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (168ms)
+				ProcessInitializeOnLoadMethodAttributes (217ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002169 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.410 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1411ms)
+		BeginReloadAssembly (135ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1171ms)
+			LoadAssemblies (298ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (177ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (656ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (586ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 2.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1996 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (179.2 KB). Loaded Objects now: 2482.
+Memory consumption went from 128.3 MB to 128.1 MB.
+Total: 4.381000 ms (FindLiveObjects: 0.293000 ms CreateObjectMapping: 0.077900 ms MarkObjects: 3.831000 ms  DeleteObjects: 0.177600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.885530 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 86.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  3.982 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3983ms)
+		BeginReloadAssembly (1256ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (2559ms)
+			LoadAssemblies (2412ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (207ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (872ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (87ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (693ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2849 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (286.7 KB). Loaded Objects now: 3378.
+Memory consumption went from 164.1 MB to 163.8 MB.
+Total: 3.598400 ms (FindLiveObjects: 0.383500 ms CreateObjectMapping: 0.096500 ms MarkObjects: 2.890600 ms  DeleteObjects: 0.227200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 11097.894498 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Level Assets/Ambush_Intro.png
+  artifactKey: Guid(a7524b7c01dc2c14c8132afdb8bd14c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Level Assets/Ambush_Intro.png using Guid(a7524b7c01dc2c14c8132afdb8bd14c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d970fe0aa7f40ec24452d0c1a931c59') in 1.329342 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Level Assets/Stronghold.png
+  artifactKey: Guid(316c8e3fe3bff024faf188b1f335ea50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Level Assets/Stronghold.png using Guid(316c8e3fe3bff024faf188b1f335ea50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7221b73e25aebaf67ee2980ebb8a108') in 0.419247 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Level Assets/TheAbyss.png
+  artifactKey: Guid(108bb2c1cfb6d6a418d2d4f468a22dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Level Assets/TheAbyss.png using Guid(108bb2c1cfb6d6a418d2d4f468a22dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7a8e6c3692d8c9d4bb09b8f809a8e4b') in 0.187811 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Level Assets/Demolition.png
+  artifactKey: Guid(15ed551af5afe4c4f966ab9be6c5368a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Level Assets/Demolition.png using Guid(15ed551af5afe4c4f966ab9be6c5368a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '583cc4b36efb3032b370bf62776ebb13') in 0.200558 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Level Assets/MovingUp.png
+  artifactKey: Guid(585cfec4367fac54e932184ed699caab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Level Assets/MovingUp.png using Guid(585cfec4367fac54e932184ed699caab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf4185b5ebd820c59cefe1810bbe969d') in 0.164622 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Level Assets/rmHipsterBar.png
+  artifactKey: Guid(aa1b5c5a3d733e54cbe8b2d7361b22d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Level Assets/rmHipsterBar.png using Guid(aa1b5c5a3d733e54cbe8b2d7361b22d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e08e307a204606344d8f555ab0bfffcf') in 0.161560 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Level Assets/FansHeadquarters.png
+  artifactKey: Guid(e01fd4def1781014f9622a9f79e2a47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Level Assets/FansHeadquarters.png using Guid(e01fd4def1781014f9622a9f79e2a47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be5ae8fd503e60df17644cb7a8cb5007') in 0.169857 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Level Assets/rmTattoo.png
+  artifactKey: Guid(0c396c0ecaef65c4fa8c5ed645d1ea8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Level Assets/rmTattoo.png using Guid(0c396c0ecaef65c4fa8c5ed645d1ea8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d3b19b5142884bf82cf0797e7008420') in 0.134976 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Level Assets/rmSwanApartment.png
+  artifactKey: Guid(4499b096013f999449abf24cf2da27d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Level Assets/rmSwanApartment.png using Guid(4499b096013f999449abf24cf2da27d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdee2bb4a34d1914e0e551f89a4303f3') in 0.050113 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Level Assets/Credits.png
+  artifactKey: Guid(f2faf1264e75c36428b547e23dfcd33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Level Assets/Credits.png using Guid(f2faf1264e75c36428b547e23dfcd33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7091007681a11567f35677106a98da33') in 0.283269 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Level Assets/NoMercy_Intro.png
+  artifactKey: Guid(f097ecbb98fda584db4f4305370382a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Level Assets/NoMercy_Intro.png using Guid(f097ecbb98fda584db4f4305370382a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1eedcaeaa5c4ffb3e87adf91d8229fc') in 0.526032 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Level Assets/rmDiner.png
+  artifactKey: Guid(7dda6b5a91daf1b41b55f92de8134e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Level Assets/rmDiner.png using Guid(7dda6b5a91daf1b41b55f92de8134e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '633b132a593e91f7f6fec97da51ebb97') in 0.145478 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Level Assets/Casualties_Intro.png
+  artifactKey: Guid(77f14dda1bf5bc74492f61350ab8e5b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Level Assets/Casualties_Intro.png using Guid(77f14dda1bf5bc74492f61350ab8e5b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9e1ab1060601b31d2befc5184c4119b') in 0.520142 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Level Assets/rmNickeStore.png
+  artifactKey: Guid(62c517f0385db7d499fd896aa765c1f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Level Assets/rmNickeStore.png using Guid(62c517f0385db7d499fd896aa765c1f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0903b628f2f9ffa513135395f933fc55') in 0.570686 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Level Assets/Homicide_Outro.png
+  artifactKey: Guid(40983aafb38670544ac4cf3d213a23d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Level Assets/Homicide_Outro.png using Guid(40983aafb38670544ac4cf3d213a23d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '514f0b22fdd02aca8b246a22e81f8f59') in 0.211590 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Level Assets/FirstBlood.png
+  artifactKey: Guid(6c89f240a0039c547afb933ce9909d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Level Assets/FirstBlood.png using Guid(6c89f240a0039c547afb933ce9909d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fb005ed302076f674aa40c5065c55c6') in 0.151421 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Level Assets/FinalCut.png
+  artifactKey: Guid(6a0cfd1984a7f8346a0a812e85551d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Level Assets/FinalCut.png using Guid(6a0cfd1984a7f8346a0a812e85551d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc5f39173014c1c11936739ef8fc7c4') in 0.130969 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Level Assets/rmPizzaPlace.png
+  artifactKey: Guid(18770825cf709ff4bb4ba59441b3fc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Level Assets/rmPizzaPlace.png using Guid(18770825cf709ff4bb4ba59441b3fc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20bcab3b12b38520f4cbe30d83bea5f3') in 0.092235 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Level Assets/DeadAhead.png
+  artifactKey: Guid(115d0d19e5042bb4fb1b6fd7d9400771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Level Assets/DeadAhead.png using Guid(115d0d19e5042bb4fb1b6fd7d9400771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aadb42d0baa4569141c5f0607cbc326c') in 0.209414 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Level Assets/BloodMoney_Outro.png
+  artifactKey: Guid(2cb1bdd8a74a48d4f902914a22bd7e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Level Assets/BloodMoney_Outro.png using Guid(2cb1bdd8a74a48d4f902914a22bd7e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82a23c6f3647fa168ee8d503d8ac6052') in 0.382117 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Level Assets/FirstTrial_Intro.png
+  artifactKey: Guid(4b15062ac006c5c408ca9ace506e6582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Level Assets/FirstTrial_Intro.png using Guid(4b15062ac006c5c408ca9ace506e6582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '689537aec312c7bf67ae39643fb0e7d3') in 0.101812 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Level Assets/rmCopyFlash.png
+  artifactKey: Guid(2a1dde5a74b49794189d3c0010452e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Level Assets/rmCopyFlash.png using Guid(2a1dde5a74b49794189d3c0010452e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85bb304f6f4efa701bfd6265b816b7bd') in 0.245082 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Level Assets/Homicide.png
+  artifactKey: Guid(13454d6d0daf80448a5e6ddab48ae260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Level Assets/Homicide.png using Guid(13454d6d0daf80448a5e6ddab48ae260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cef0e02f629956ad63a38b2cbfb0947a') in 4.636072 seconds 
+Number of asset objects unloaded after import = 3063
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Level Assets/rmOceanSide.png
+  artifactKey: Guid(a00a99f7c0591b64f8c0950cf606023e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Level Assets/rmOceanSide.png using Guid(a00a99f7c0591b64f8c0950cf606023e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '242bed72863483913ad0c72e45849ecc') in 0.140564 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Level Assets/Withdrawal.png
+  artifactKey: Guid(34e1b2234b4ef2244a09c7ae84d9b387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Level Assets/Withdrawal.png using Guid(34e1b2234b4ef2244a09c7ae84d9b387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a1957346a132b3bb0b0e64667e3b219') in 0.316141 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Level Assets/rmCrimeScene2.png
+  artifactKey: Guid(0c6db77349c2354409ff2977cd125b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Level Assets/rmCrimeScene2.png using Guid(0c6db77349c2354409ff2977cd125b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec9f922fb883003bf4f021abbca816f6') in 0.209539 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Level Assets/Release.png
+  artifactKey: Guid(f85d7c53f0f39264bbdc700cb943c1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Level Assets/Release.png using Guid(f85d7c53f0f39264bbdc700cb943c1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e24edb8d4578a61327820b1fef84cea3') in 0.149444 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Neon Blitz/Assets/Textures/Level Assets/Seizure.png
+  artifactKey: Guid(5827feb5bfc34e9418816802d753e7ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Textures/Level Assets/Seizure.png using Guid(5827feb5bfc34e9418816802d753e7ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '892cc72ca97e8a376fbda7f2aa17136a') in 1.853349 seconds 
+Number of asset objects unloaded after import = 1422
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

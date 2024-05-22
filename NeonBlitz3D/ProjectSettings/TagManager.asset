@@ -8,6 +8,11 @@ TagManager:
   - enemy
   - medkit
   - ammo
+  - Audio
+  - Mur
+  - Ennemi
+  - Balle
+  - Rebond
   layers:
   - Default
   - TransparentFX

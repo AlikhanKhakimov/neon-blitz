@@ -1,0 +1,1083 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.35f1 (157b46ce122a) revision 1407814'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16333 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+Z:\Program Files\2021.3.35f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+Z:/Utilisateur/hamid/Bureau/jeu final/jeu-final/NeonBlitz3D
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+53082
+Successfully changed project path to: Z:/Utilisateur/hamid/Bureau/jeu final/jeu-final/NeonBlitz3D
+Z:/Utilisateur/hamid/Bureau/jeu final/jeu-final/NeonBlitz3D
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [33980] Host "[IP] 192.168.44.1 [Port] 0 [Flags] 2 [Guid] 2040243715 [EditorId] 2040243715 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QFF8DP8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [33980] Host "[IP] 192.168.44.1 [Port] 0 [Flags] 2 [Guid] 2040243715 [EditorId] 2040243715 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QFF8DP8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 92.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.35f1 (157b46ce122a)
+[Subsystems] Discovering subsystems at path Z:/Program Files/2021.3.35f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path Z:/Utilisateur/hamid/Bureau/jeu final/jeu-final/NeonBlitz3D/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1e89)
+    Vendor:   NVIDIA
+    VRAM:     5958 MB
+    Driver:   31.0.15.3623
+Initialize mono
+Mono path[0] = 'Z:/Program Files/2021.3.35f1/Editor/Data/Managed'
+Mono path[1] = 'Z:/Program Files/2021.3.35f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'Z:/Program Files/2021.3.35f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56532
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: Z:/Program Files/2021.3.35f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002488 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 92.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.709 seconds
+Domain Reload Profiling:
+	ReloadAssembly (710ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (494ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (120ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (308ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (93ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (154ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002135 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.315 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1316ms)
+		BeginReloadAssembly (163ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (1047ms)
+			LoadAssemblies (119ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (207ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (674ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (599ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.28 seconds
+Refreshing native plugins compatible for Editor in 2.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1996 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (164.3 KB). Loaded Objects now: 2482.
+Memory consumption went from 127.0 MB to 126.8 MB.
+Total: 5.675100 ms (FindLiveObjects: 0.351500 ms CreateObjectMapping: 0.078900 ms MarkObjects: 5.048600 ms  DeleteObjects: 0.194500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 8674.890361 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_600.asset
+  artifactKey: Guid(b23b08131fe8f44458eeef5e066078a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_600.asset using Guid(b23b08131fe8f44458eeef5e066078a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2acf3b85b90a2712a65b6f5584b5659') in 0.083240 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_715.asset
+  artifactKey: Guid(a7523d6dec6bc88459fa3eba7f59bc7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_715.asset using Guid(a7523d6dec6bc88459fa3eba7f59bc7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3b1653294f4eefbca52c5e1a2766e9c') in 0.011150 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_446.asset
+  artifactKey: Guid(5174aa14bbeb63b438f3b795bd2300d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_446.asset using Guid(5174aa14bbeb63b438f3b795bd2300d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f216547d9f714cf4e0fe8f28b59b4724') in 0.007817 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_244.asset
+  artifactKey: Guid(8f3ea9b0cb582204fb80b0b0a08307bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_244.asset using Guid(8f3ea9b0cb582204fb80b0b0a08307bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6270050c32a96d6b28cb402e515df594') in 0.007574 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_808.asset
+  artifactKey: Guid(2b51291e7782c14489bea5bb2ebe234a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_808.asset using Guid(2b51291e7782c14489bea5bb2ebe234a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ac205eaee0f01202ae2ec0924938b0f') in 0.007862 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_738.asset
+  artifactKey: Guid(a6f6b45cfeafb984695145a8be421100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_738.asset using Guid(a6f6b45cfeafb984695145a8be421100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3d7e5d3502d17cf6f771ed440a7d09d') in 0.007484 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_914.asset
+  artifactKey: Guid(255eb4e4e48735342aa94f63b70be313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_914.asset using Guid(255eb4e4e48735342aa94f63b70be313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07f453777c38000593d42cd96bbe4aaf') in 0.008053 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_447.asset
+  artifactKey: Guid(897fc513c5c35b947ab6fc09638c3d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_447.asset using Guid(897fc513c5c35b947ab6fc09638c3d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c66344223ed3084a00d758325adb37fc') in 0.007795 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_766.asset
+  artifactKey: Guid(776a3bc41a9b0d44eb9d0b37dd4aaf53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_766.asset using Guid(776a3bc41a9b0d44eb9d0b37dd4aaf53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20d419a5113ae2da95a3202859a8fe08') in 0.008476 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_811.asset
+  artifactKey: Guid(e964ef95294cda54eb1a98bd91e0d8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_811.asset using Guid(e964ef95294cda54eb1a98bd91e0d8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adc7a72bb4940d79e4b137c69e9c6775') in 0.009845 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_751.asset
+  artifactKey: Guid(a077a9977c7223c4fab7359129b77c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_751.asset using Guid(a077a9977c7223c4fab7359129b77c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e192973636c556a423c5944a73501a4') in 0.006134 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_181.asset
+  artifactKey: Guid(61442f0c4434b74479cb7acd0230f454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_181.asset using Guid(61442f0c4434b74479cb7acd0230f454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f178c63e1eeb058311ad89dd6b11ca87') in 0.012264 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_306.asset
+  artifactKey: Guid(299ac4accb393f547af1d3a3f3c070bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_306.asset using Guid(299ac4accb393f547af1d3a3f3c070bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98890010e8374e5f9fa8e0891a874c85') in 0.006459 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_877.asset
+  artifactKey: Guid(09a723e00d686bf48a6cc2f58f39e518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_877.asset using Guid(09a723e00d686bf48a6cc2f58f39e518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '388185401693f85179c0036a070e3c88') in 0.006479 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_917.asset
+  artifactKey: Guid(69bcad74f8d3ed344a743e459c0ee624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_917.asset using Guid(69bcad74f8d3ed344a743e459c0ee624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d6b3fb51692939b019309d6811146ec') in 0.007012 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_635.asset
+  artifactKey: Guid(bb1cc9705e8ac0b49ac3a8e3ab8a2b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_635.asset using Guid(bb1cc9705e8ac0b49ac3a8e3ab8a2b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c16a93ffd647e27ee0e2280d950bc94') in 0.007003 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_374.asset
+  artifactKey: Guid(7c17b73fba31a594f8323d208d1de41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_374.asset using Guid(7c17b73fba31a594f8323d208d1de41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3520656fef247ce396641d4e0492e3aa') in 0.005512 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_892.asset
+  artifactKey: Guid(1707baac26aec484f952560333052cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_892.asset using Guid(1707baac26aec484f952560333052cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0c2fb5649d75599f096c45b60c9ecdf') in 0.007078 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_474.asset
+  artifactKey: Guid(5f8d4b4971650f34ca1101478fa3684e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_474.asset using Guid(5f8d4b4971650f34ca1101478fa3684e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5456b52a3a6a9ef6936948c2000c6c83') in 0.007344 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_467.asset
+  artifactKey: Guid(9fdb086fd07869348a748a6b6f7f58e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_467.asset using Guid(9fdb086fd07869348a748a6b6f7f58e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6351df01a34cff3692561f2d4aa25553') in 0.005662 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_493.asset
+  artifactKey: Guid(7861c2b940c275a429e656dbcfedd49c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_493.asset using Guid(7861c2b940c275a429e656dbcfedd49c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3f9a4099fac6e21d977f2acffe9284c') in 0.006994 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_574.asset
+  artifactKey: Guid(f345379c59cd1b64c927a81e0091c1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_574.asset using Guid(f345379c59cd1b64c927a81e0091c1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5de117b889f00b78ab9b8038b9990959') in 0.005277 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_232.asset
+  artifactKey: Guid(8dde1e1c279384147954232f41a4226d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_232.asset using Guid(8dde1e1c279384147954232f41a4226d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '933c60a284aa28f89ebd329745cd9def') in 0.007523 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_63.asset
+  artifactKey: Guid(57232fe5a18ae5f46bddf55fc35555af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_63.asset using Guid(57232fe5a18ae5f46bddf55fc35555af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd024f12a545d06476f478021d38e85a') in 0.007961 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_753.asset
+  artifactKey: Guid(fc85723b79b4b07499ca6f40b5fa09fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_753.asset using Guid(fc85723b79b4b07499ca6f40b5fa09fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '244640ed5de70e48a3a5e633bda706a8') in 0.010727 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_212.asset
+  artifactKey: Guid(703158faba29c4346a93919375396f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_212.asset using Guid(703158faba29c4346a93919375396f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31162077647847ab9733a8149f9f1d9e') in 0.014762 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_653.asset
+  artifactKey: Guid(d78b7f6d8962b964b8a5bc591a8c18b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_653.asset using Guid(d78b7f6d8962b964b8a5bc591a8c18b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8595c1e1628c6ba71ee5eff42edd0e14') in 0.005816 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_575.asset
+  artifactKey: Guid(7fc574fe7377f1049b9b51c8fd15a14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_575.asset using Guid(7fc574fe7377f1049b9b51c8fd15a14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1afc56f693b0d0440a5c0024fd4e7230') in 0.006570 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_316.asset
+  artifactKey: Guid(b5333e0099f68ef449dd4021f9a1bdd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_316.asset using Guid(b5333e0099f68ef449dd4021f9a1bdd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03fb5b6fe084cadc0b30f744f7ea4518') in 0.006386 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_616.asset
+  artifactKey: Guid(9ccd4a39907dd924089f4e08cc5303d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_616.asset using Guid(9ccd4a39907dd924089f4e08cc5303d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8950df09d8fef7cc33f4787d41e0044f') in 0.007731 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_691.asset
+  artifactKey: Guid(eee46be2fed20974a8e154911c2353cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_691.asset using Guid(eee46be2fed20974a8e154911c2353cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce02035f1e3b4a724cfab3fe3f7d51c4') in 0.007041 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_311.asset
+  artifactKey: Guid(6c745e92cc6aa704788c7c0a4f3990e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_311.asset using Guid(6c745e92cc6aa704788c7c0a4f3990e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1c7edc54c75d4ceea478c8f6229859d') in 0.006271 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_948.asset
+  artifactKey: Guid(963ce47b74ae59d4094db28f59b3f0b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_948.asset using Guid(963ce47b74ae59d4094db28f59b3f0b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6e7f615219f627a5e0288e1657f87f1') in 0.006827 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_572.asset
+  artifactKey: Guid(3786dca419f408547b6d03132f01d068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_572.asset using Guid(3786dca419f408547b6d03132f01d068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17a396da3ef21dd9347fa355eff38d81') in 0.006386 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_144.asset
+  artifactKey: Guid(8b51ee243ef5cee44b1eb13f8678bcec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_144.asset using Guid(8b51ee243ef5cee44b1eb13f8678bcec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bafc2f6d27e3fed3ac706f104b3db3d1') in 0.004864 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_127.asset
+  artifactKey: Guid(e2aadeb1dcf7db24cb2087db2bc35829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_127.asset using Guid(e2aadeb1dcf7db24cb2087db2bc35829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd9642f068dc0c2d8e6960d4d126e415') in 0.006715 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_312.asset
+  artifactKey: Guid(80305a11d2a18a746be4b04067acee92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_312.asset using Guid(80305a11d2a18a746be4b04067acee92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeb48093e37d1047aac05178591608ef') in 0.005868 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_795.asset
+  artifactKey: Guid(456742f62119f8a46a06f34c62dc10e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_795.asset using Guid(456742f62119f8a46a06f34c62dc10e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5dc2bd800781c32c1c564d238c6b477') in 0.007556 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_538.asset
+  artifactKey: Guid(d4f18a445026ad8448d1662d01590f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_538.asset using Guid(d4f18a445026ad8448d1662d01590f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e27f21cabab89b970225946b1d404fcd') in 0.006445 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_540.asset
+  artifactKey: Guid(fc5617399c947664681c58444077f7a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_540.asset using Guid(fc5617399c947664681c58444077f7a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '954b454f9b5119cb24929f71efb9692a') in 0.006411 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_960.asset
+  artifactKey: Guid(3c8e0a9a15f6690488274275e972eb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_960.asset using Guid(3c8e0a9a15f6690488274275e972eb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34d43c326721a8050cde811828361550') in 0.006933 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_613.asset
+  artifactKey: Guid(603ea22fe512fbd4eb9c770670c7a69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_613.asset using Guid(603ea22fe512fbd4eb9c770670c7a69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc5678db8e2f125775396237dae46b6f') in 0.006658 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_704.asset
+  artifactKey: Guid(10d81d9ce3eb1a3408976297c1b9b4d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_704.asset using Guid(10d81d9ce3eb1a3408976297c1b9b4d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ae79350f8226055e00442a291c75b8a') in 0.006712 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_958.asset
+  artifactKey: Guid(5d7b8453dcec62e429f80abb7620938f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_958.asset using Guid(5d7b8453dcec62e429f80abb7620938f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '133973d83a54bd78322912015efe7607') in 0.005852 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_314.asset
+  artifactKey: Guid(2a9653514332acd479d974c7f6636fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_314.asset using Guid(2a9653514332acd479d974c7f6636fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '566756b042ab47927bef6a81aa5ed247') in 0.004427 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_773.asset
+  artifactKey: Guid(8c05bd928184f0846b5b8629c508c0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_773.asset using Guid(8c05bd928184f0846b5b8629c508c0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78475924ef18dae3942a41a1b694e677') in 0.006403 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_434.asset
+  artifactKey: Guid(6b3d7e2e86619bf468bbfe1709b8393c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_434.asset using Guid(6b3d7e2e86619bf468bbfe1709b8393c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '615bbbcc7420414c64123559871444ad') in 0.006976 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_942.asset
+  artifactKey: Guid(e560366aee5ea0d448b654dc38ae1cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_942.asset using Guid(e560366aee5ea0d448b654dc38ae1cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a99d3856c517ca78fe9e28ae8c56874') in 0.006055 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_722.asset
+  artifactKey: Guid(5bbe417ccc0ac1f4abb438b2ff089d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_722.asset using Guid(5bbe417ccc0ac1f4abb438b2ff089d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91a079ecb78d746dfd7b2838066841a1') in 0.006832 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_768.asset
+  artifactKey: Guid(f8c09ed309b87c24a9d442c4794c6de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_768.asset using Guid(f8c09ed309b87c24a9d442c4794c6de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c52a44d16ab92b2e812751ed399cb13c') in 0.069497 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_815.asset
+  artifactKey: Guid(2a416a5fc1e6b474b8ac56e8eced5276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_815.asset using Guid(2a416a5fc1e6b474b8ac56e8eced5276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12050faf40c0343cc062a899c2aeceac') in 0.006162 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_556.asset
+  artifactKey: Guid(8c20e7929ef99184a8dc8c1a4f155419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_556.asset using Guid(8c20e7929ef99184a8dc8c1a4f155419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9ec69beda5ac9e56acdd16b2d00ab94') in 0.008141 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_10.asset
+  artifactKey: Guid(ee40133c0c419fc439ebd2b457e5ca23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_10.asset using Guid(ee40133c0c419fc439ebd2b457e5ca23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cce79554b54190df9fa4ed5bc656a13c') in 0.026952 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_584.asset
+  artifactKey: Guid(5e25da761eb6e4a4da6a70cd862e9bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_584.asset using Guid(5e25da761eb6e4a4da6a70cd862e9bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b942274ad3d6760b01f22d8fb07a7e9') in 0.023607 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_688.asset
+  artifactKey: Guid(8bbb293f3bae1164eb42dcd84eb5a888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_688.asset using Guid(8bbb293f3bae1164eb42dcd84eb5a888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5e5f19903be3f37ec48fde8d74ac5cd') in 0.005833 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_101.asset
+  artifactKey: Guid(dce728c262c57d945bf8f72e325eefaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_101.asset using Guid(dce728c262c57d945bf8f72e325eefaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '478e37ecfcd2d939f7dc4a316b23566c') in 0.026167 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_218.asset
+  artifactKey: Guid(55e2d4f99c126924fb29e61c645393b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_218.asset using Guid(55e2d4f99c126924fb29e61c645393b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d4b40e87a03a2c96c017471112e0bf1') in 0.011781 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_126.asset
+  artifactKey: Guid(ab1025ea87f294049bc86937f54fb08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_126.asset using Guid(ab1025ea87f294049bc86937f54fb08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34fc2f5632e8de88dfb18397c2e6dc2b') in 0.008400 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_483.asset
+  artifactKey: Guid(c8d2621d48a445a498b8031168cebd5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_483.asset using Guid(c8d2621d48a445a498b8031168cebd5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebe2d190becf2434cc965ae31a5608a1') in 0.030713 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_351.asset
+  artifactKey: Guid(bb87dad79f5cd7a439a98e18a939b141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_351.asset using Guid(bb87dad79f5cd7a439a98e18a939b141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '315136c7ad3d62211a58db43d8c9c8eb') in 0.022756 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_423.asset
+  artifactKey: Guid(ea2ade20c78f9984c8f4d0eb3223de4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_423.asset using Guid(ea2ade20c78f9984c8f4d0eb3223de4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cc3cfdfcb5c6dce0d79f17813a69127') in 0.016168 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002339 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_130.asset
+  artifactKey: Guid(fbe47dbc86d217a4c8a47c56b43a290d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_130.asset using Guid(fbe47dbc86d217a4c8a47c56b43a290d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26461969f4eec7b272f503031af4d273') in 0.007178 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_62.asset
+  artifactKey: Guid(b77e5e286000f45439ffd75047a25741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_62.asset using Guid(b77e5e286000f45439ffd75047a25741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55e75eefed4ec2f7c56d80f6fc959faf') in 0.005963 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_327.asset
+  artifactKey: Guid(164b11d9a353bac4f98b7f2b68432575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_327.asset using Guid(164b11d9a353bac4f98b7f2b68432575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '190b72d3037bc34bb081bbff7b109b76') in 0.006374 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_570.asset
+  artifactKey: Guid(23add90f056f77641aa2bc598af47b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_570.asset using Guid(23add90f056f77641aa2bc598af47b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b349a8860d518617c647ee1cb483978') in 0.007029 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_56.asset
+  artifactKey: Guid(d339effdd68fe3842b7d6239091b9598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_56.asset using Guid(d339effdd68fe3842b7d6239091b9598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c99cc009b30964a4a0d28583834d5cf5') in 0.007234 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_125.asset
+  artifactKey: Guid(1ff42b2f2f7d1ad4ab1c3b869d97ecc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_125.asset using Guid(1ff42b2f2f7d1ad4ab1c3b869d97ecc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9059de6d48740f446dbf8b947f820f98') in 0.006491 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_819.asset
+  artifactKey: Guid(64a034c96631ff94ca2c42a9ea662e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_819.asset using Guid(64a034c96631ff94ca2c42a9ea662e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcc48c872cf7c8d6d05258dccff7bb32') in 0.006868 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_918.asset
+  artifactKey: Guid(367a965394f762447bffaf267a1c5d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_918.asset using Guid(367a965394f762447bffaf267a1c5d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '306398ab27b8ba95cd1e4c6c0d88be15') in 0.007028 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_552.asset
+  artifactKey: Guid(1725b5239a22b27468ab09b3679208d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_552.asset using Guid(1725b5239a22b27468ab09b3679208d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60b8e38fd89b80c6b2530a9b648b4f6e') in 0.007273 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_849.asset
+  artifactKey: Guid(bb0f074f073195e4f880e1e6583df240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_849.asset using Guid(bb0f074f073195e4f880e1e6583df240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25a3cffb8cb347fdc5b37febd3965ae6') in 0.007085 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_339.asset
+  artifactKey: Guid(85f339ff7f7f703429c637b61696ffbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_339.asset using Guid(85f339ff7f7f703429c637b61696ffbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aed39375be4edbea0dfcbf7c222e6b0') in 0.006533 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_300.asset
+  artifactKey: Guid(50cbe1cadae976948a6b98fdeaa34883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_300.asset using Guid(50cbe1cadae976948a6b98fdeaa34883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd0fae28cfd63cfa8f0904c33e17bbbd') in 0.007071 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_654.asset
+  artifactKey: Guid(fa26cf34e5a8f3d4aaed719f230a2510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_654.asset using Guid(fa26cf34e5a8f3d4aaed719f230a2510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce58c7efca55847bd3180192c960338d') in 0.007049 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_274.asset
+  artifactKey: Guid(33db881a9f66cb6478af83e79d306384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_274.asset using Guid(33db881a9f66cb6478af83e79d306384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd649fa3a4d059ff120136d3b14faf7a5') in 0.007030 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_841.asset
+  artifactKey: Guid(3951fc940f7894146b6ecef473942156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_841.asset using Guid(3951fc940f7894146b6ecef473942156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45889045343fe6e64d253a48725f5166') in 0.030778 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_44.asset
+  artifactKey: Guid(391b6fdbdb269f144a93a0e2ed212420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_44.asset using Guid(391b6fdbdb269f144a93a0e2ed212420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4c6e24febdf8b83a1ce864fe660b161') in 0.008362 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_405.asset
+  artifactKey: Guid(e9d670769655b37428d4910094d95232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_405.asset using Guid(e9d670769655b37428d4910094d95232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd28d28bb05330aba87fb67fef7d435b2') in 0.006636 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_478.asset
+  artifactKey: Guid(09945d92ecf234744b41ac2f255a195c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_478.asset using Guid(09945d92ecf234744b41ac2f255a195c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d3bc8cb29b8e0888144428327da2dbf') in 0.006624 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_608.asset
+  artifactKey: Guid(28fed7873d0f8bb42a0feaa082c520b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_608.asset using Guid(28fed7873d0f8bb42a0feaa082c520b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fa68303a2b4bd84ffd8b7fa91537722') in 0.006502 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_162.asset
+  artifactKey: Guid(edf35de9d51f522458c1f779459bddb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_162.asset using Guid(edf35de9d51f522458c1f779459bddb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '510888ea5a92e517f1a157aa948a5006') in 0.006024 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_898.asset
+  artifactKey: Guid(024f7598252c2a54ebe31c435a89c6ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_898.asset using Guid(024f7598252c2a54ebe31c435a89c6ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9294e6a52aa393472736c540b117fe37') in 0.004611 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_262.asset
+  artifactKey: Guid(f61a870bd63155546a4d2b924fd517c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_262.asset using Guid(f61a870bd63155546a4d2b924fd517c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fea7c9340cb321c0354043845e8fcbdd') in 0.007723 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_938.asset
+  artifactKey: Guid(23e0ea434a0578646a05cdeccc97414e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_938.asset using Guid(23e0ea434a0578646a05cdeccc97414e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dda2e92c18e67477e202cb9b04eeb124') in 0.007560 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_681.asset
+  artifactKey: Guid(73c0cd57e53e72149b165cd94832b7a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_681.asset using Guid(73c0cd57e53e72149b165cd94832b7a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d917ad5df4e33a4a1cfd9c81f2e3e3a') in 0.007642 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_529.asset
+  artifactKey: Guid(3cd0f21390c44164c85b0a062041aca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_529.asset using Guid(3cd0f21390c44164c85b0a062041aca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '437dedb51ad6c8996fdfe0a2009b0279') in 0.007062 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_204.asset
+  artifactKey: Guid(136dc7bcfcbf119408b1eac7413a26d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_204.asset using Guid(136dc7bcfcbf119408b1eac7413a26d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afb7b86e06ac9ad18036f9a412df0a30') in 0.008278 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_42.asset
+  artifactKey: Guid(2371a9bbc500db04d8bb2786a83df5af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_42.asset using Guid(2371a9bbc500db04d8bb2786a83df5af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11a982350256ae13140a53fabe13d3dd') in 0.006697 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_888.asset
+  artifactKey: Guid(f06967446ba820c498f7838c6b37d9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_888.asset using Guid(f06967446ba820c498f7838c6b37d9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '583b184affd689f5e297608069a0dcd9') in 0.005881 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_894.asset
+  artifactKey: Guid(1bbb7c8affe61924ca70674fe0550373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_894.asset using Guid(1bbb7c8affe61924ca70674fe0550373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60113d95db69e278bf6aa22afcf9267d') in 0.007351 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_359.asset
+  artifactKey: Guid(fe8bddadab9281643886d50fe8c07a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_359.asset using Guid(fe8bddadab9281643886d50fe8c07a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9597cdd5552088458155289004ab16f5') in 0.007215 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_36.asset
+  artifactKey: Guid(7ba17bc4b43eea642842c3177072af31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_36.asset using Guid(7ba17bc4b43eea642842c3177072af31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb9d96bb2fb9a78a3c9442bfcc7487e1') in 0.006511 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_170.asset
+  artifactKey: Guid(221f3acdd2773c242be84ba855dffb73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_170.asset using Guid(221f3acdd2773c242be84ba855dffb73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d0b61a0bd431bbe130975a02288f5ab') in 0.005781 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_388.asset
+  artifactKey: Guid(9c46495e57316c049812d396173afb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_388.asset using Guid(9c46495e57316c049812d396173afb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc060a9b187ee8220019c62a16be1646') in 0.005827 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_782.asset
+  artifactKey: Guid(a8f495d907f40f240853738145fc7c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_782.asset using Guid(a8f495d907f40f240853738145fc7c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73fe37c2262c54ced8b6a066190fe80b') in 0.005574 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_67.asset
+  artifactKey: Guid(243ca4c67c4c6f24d94dd71bc0919bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_67.asset using Guid(243ca4c67c4c6f24d94dd71bc0919bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '013a0eca5458ce432c3d8e50138ebb65') in 0.006291 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_304.asset
+  artifactKey: Guid(95aa8d55f76edd040bc49348f2f9bee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_304.asset using Guid(95aa8d55f76edd040bc49348f2f9bee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '776da0be8775c81a3c0f03a17d731393') in 0.006353 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_235.asset
+  artifactKey: Guid(3906551128918a343b8e590e8cb7ceee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_235.asset using Guid(3906551128918a343b8e590e8cb7ceee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6b11edb3a9b9caaf3f50a68e0fdd24f') in 0.005666 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_419.asset
+  artifactKey: Guid(40a4751e7de0f0b42a6d0cf3773383dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_419.asset using Guid(40a4751e7de0f0b42a6d0cf3773383dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c1fd6c44bb024f65d000d0ae52e1fc') in 0.006404 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_596.asset
+  artifactKey: Guid(d87b671093534104da3f3ffaf73146e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_596.asset using Guid(d87b671093534104da3f3ffaf73146e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e1da141459cfc8544cb497809acea4b') in 0.006734 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_657.asset
+  artifactKey: Guid(b1f57d9cbec96af4db0a486238afcf2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_657.asset using Guid(b1f57d9cbec96af4db0a486238afcf2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec4ee4e2ee8fac8095f08d46eeff9457') in 0.008233 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_105.asset
+  artifactKey: Guid(a58771d1d44b82448b6ec8bb195f0008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_105.asset using Guid(a58771d1d44b82448b6ec8bb195f0008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ccd1e3e5e3fc7fbe475e9c823855d61') in 0.006608 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_594.asset
+  artifactKey: Guid(deab95dce37b19a4bb15581eadac40a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_594.asset using Guid(deab95dce37b19a4bb15581eadac40a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffad6fdf279162b6f1043965fe4633fa') in 0.006189 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_205.asset
+  artifactKey: Guid(a7e595dfd7d338145bb1ef79e64a4e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_205.asset using Guid(a7e595dfd7d338145bb1ef79e64a4e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b77c4d7091f5f18c1bdcac5e3b18aab4') in 0.007319 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_189.asset
+  artifactKey: Guid(2dcc1ab3c720f474485fe2846e454654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_189.asset using Guid(2dcc1ab3c720f474485fe2846e454654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6282ffd58f39da15daa3a795c40b339f') in 0.009867 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_320.asset
+  artifactKey: Guid(22ee56a8529d14544a4887afff7ff553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_320.asset using Guid(22ee56a8529d14544a4887afff7ff553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d3c40def14ed87ff3be42df975ec48d') in 0.006685 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_256.asset
+  artifactKey: Guid(e056571eb9aa9494d9146e8f5d43e564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_256.asset using Guid(e056571eb9aa9494d9146e8f5d43e564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b8e34cc44db629dc5d6e651fa288c59') in 0.005977 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_163.asset
+  artifactKey: Guid(894a2f6b4a6a4864b9fb3a70d4b03d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_163.asset using Guid(894a2f6b4a6a4864b9fb3a70d4b03d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '504e56176666a22500c2bc816e82b27d') in 0.007391 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_433.asset
+  artifactKey: Guid(2c9b6d571480edd49afb579ef6171375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_433.asset using Guid(2c9b6d571480edd49afb579ef6171375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ca72b814afadc39ebdbb4ac79c2041d') in 0.007788 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_844.asset
+  artifactKey: Guid(bf330d09f5ae1fc4b9d9101df93c46ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_844.asset using Guid(bf330d09f5ae1fc4b9d9101df93c46ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73404f63a12fa5d7b526ad11b64e80d3') in 0.006939 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_745.asset
+  artifactKey: Guid(2d98fcbc571592840b89c09e759f18f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_745.asset using Guid(2d98fcbc571592840b89c09e759f18f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '383058d3b6e221f98e44e55585038b1f') in 0.008249 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_102.asset
+  artifactKey: Guid(2961e113a068dbe47ad2fdfbe15f5005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_102.asset using Guid(2961e113a068dbe47ad2fdfbe15f5005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9626c76ceb10a6082fb8d56eecc8315') in 0.007542 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_546.asset
+  artifactKey: Guid(80a318d5b1f00204f96ff13fc91fd055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_546.asset using Guid(80a318d5b1f00204f96ff13fc91fd055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba0cbd1031b350844662afe5bc5f8e59') in 0.007225 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Neon Blitz/Assets/Tiles/Ambush_302.asset
+  artifactKey: Guid(5d52ec0f8e0b1cf42af02f4bfb87e34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Neon Blitz/Assets/Tiles/Ambush_302.asset using Guid(5d52ec0f8e0b1cf42af02f4bfb87e34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '547bd87a764a6c691cf5a1d9f2d73033') in 0.007923 seconds 
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

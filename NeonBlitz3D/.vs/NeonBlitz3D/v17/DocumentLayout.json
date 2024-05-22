@@ -1,0 +1,268 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "Z:\\Utilisateur\\hamid\\Bureau\\jeu final\\jeu-final\\NeonBlitz3D\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6F63AB-9A41-6498-10B9-4D86C78DECC4}|Assembly-CSharp.csproj|z:\\utilisateur\\hamid\\bureau\\jeu final\\jeu-final\\neonblitz3d\\assets\\script\\mouvement\\joueurmouvement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED6F63AB-9A41-6498-10B9-4D86C78DECC4}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\mouvement\\joueurmouvement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6F63AB-9A41-6498-10B9-4D86C78DECC4}|Assembly-CSharp.csproj|z:\\utilisateur\\hamid\\bureau\\jeu final\\jeu-final\\neonblitz3d\\assets\\animation_state_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED6F63AB-9A41-6498-10B9-4D86C78DECC4}|Assembly-CSharp.csproj|solutionrelative:assets\\animation_state_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6F63AB-9A41-6498-10B9-4D86C78DECC4}|Assembly-CSharp.csproj|Z:\\Utilisateur\\hamid\\Bureau\\jeu final\\jeu-final\\NeonBlitz3D\\assets\\neon blitz\\assets\\script\\ganger\\autocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED6F63AB-9A41-6498-10B9-4D86C78DECC4}|Assembly-CSharp.csproj|solutionrelative:assets\\neon blitz\\assets\\script\\ganger\\autocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6F63AB-9A41-6498-10B9-4D86C78DECC4}|Assembly-CSharp.csproj|Z:\\Utilisateur\\hamid\\Bureau\\jeu final\\jeu-final\\NeonBlitz3D\\assets\\neon blitz\\assets\\script\\movement\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED6F63AB-9A41-6498-10B9-4D86C78DECC4}|Assembly-CSharp.csproj|solutionrelative:assets\\neon blitz\\assets\\script\\movement\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6F63AB-9A41-6498-10B9-4D86C78DECC4}|Assembly-CSharp.csproj|Z:\\Utilisateur\\hamid\\Bureau\\jeu final\\jeu-final\\NeonBlitz3D\\assets\\neon blitz\\assets\\script\\uitext\\textnbrennemi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED6F63AB-9A41-6498-10B9-4D86C78DECC4}|Assembly-CSharp.csproj|solutionrelative:assets\\neon blitz\\assets\\script\\uitext\\textnbrennemi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6F63AB-9A41-6498-10B9-4D86C78DECC4}|Assembly-CSharp.csproj|Z:\\Utilisateur\\hamid\\Bureau\\jeu final\\jeu-final\\NeonBlitz3D\\assets\\neon blitz\\assets\\script\\destroy\\joueurdestroy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED6F63AB-9A41-6498-10B9-4D86C78DECC4}|Assembly-CSharp.csproj|solutionrelative:assets\\neon blitz\\assets\\script\\destroy\\joueurdestroy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6F63AB-9A41-6498-10B9-4D86C78DECC4}|Assembly-CSharp.csproj|Z:\\Utilisateur\\hamid\\Bureau\\jeu final\\jeu-final\\NeonBlitz3D\\assets\\script\\changementscene\\hellicopeteescape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED6F63AB-9A41-6498-10B9-4D86C78DECC4}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\changementscene\\hellicopeteescape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6F63AB-9A41-6498-10B9-4D86C78DECC4}|Assembly-CSharp.csproj|Z:\\Utilisateur\\hamid\\Bureau\\jeu final\\jeu-final\\NeonBlitz3D\\assets\\neon blitz\\assets\\script\\destroy\\enemidestroy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED6F63AB-9A41-6498-10B9-4D86C78DECC4}|Assembly-CSharp.csproj|solutionrelative:assets\\neon blitz\\assets\\script\\destroy\\enemidestroy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6F63AB-9A41-6498-10B9-4D86C78DECC4}|Assembly-CSharp.csproj|Z:\\Utilisateur\\hamid\\Bureau\\jeu final\\jeu-final\\NeonBlitz3D\\assets\\script\\changementscene\\heliicopterecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED6F63AB-9A41-6498-10B9-4D86C78DECC4}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\changementscene\\heliicopterecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6F63AB-9A41-6498-10B9-4D86C78DECC4}|Assembly-CSharp.csproj|Z:\\Utilisateur\\hamid\\Bureau\\jeu final\\jeu-final\\NeonBlitz3D\\assets\\neon blitz\\assets\\script\\balle\\ballescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED6F63AB-9A41-6498-10B9-4D86C78DECC4}|Assembly-CSharp.csproj|solutionrelative:assets\\neon blitz\\assets\\script\\balle\\ballescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6F63AB-9A41-6498-10B9-4D86C78DECC4}|Assembly-CSharp.csproj|Z:\\Utilisateur\\hamid\\Bureau\\jeu final\\jeu-final\\NeonBlitz3D\\assets\\neon blitz\\assets\\script\\balle\\balleennemi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED6F63AB-9A41-6498-10B9-4D86C78DECC4}|Assembly-CSharp.csproj|solutionrelative:assets\\neon blitz\\assets\\script\\balle\\balleennemi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6F63AB-9A41-6498-10B9-4D86C78DECC4}|Assembly-CSharp.csproj|Z:\\Utilisateur\\hamid\\Bureau\\jeu final\\jeu-final\\NeonBlitz3D\\assets\\neon blitz\\assets\\script\\movement\\enemiemovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED6F63AB-9A41-6498-10B9-4D86C78DECC4}|Assembly-CSharp.csproj|solutionrelative:assets\\neon blitz\\assets\\script\\movement\\enemiemovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6F63AB-9A41-6498-10B9-4D86C78DECC4}|Assembly-CSharp.csproj|Z:\\Utilisateur\\hamid\\Bureau\\jeu final\\jeu-final\\NeonBlitz3D\\assets\\neon blitz\\assets\\script\\uitext\\textsecverte2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED6F63AB-9A41-6498-10B9-4D86C78DECC4}|Assembly-CSharp.csproj|solutionrelative:assets\\neon blitz\\assets\\script\\uitext\\textsecverte2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED6F63AB-9A41-6498-10B9-4D86C78DECC4}|Assembly-CSharp.csproj|Z:\\Utilisateur\\hamid\\Bureau\\jeu final\\jeu-final\\NeonBlitz3D\\assets\\neon blitz\\assets\\script\\balle\\coups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED6F63AB-9A41-6498-10B9-4D86C78DECC4}|Assembly-CSharp.csproj|solutionrelative:assets\\neon blitz\\assets\\script\\balle\\coups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "JoueurMouvement.cs",
+              "DocumentMoniker": "Z:\\Utilisateur\\hamid\\Bureau\\jeu final\\jeu-final\\NeonBlitz3D\\Assets\\Script\\Mouvement\\JoueurMouvement.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Mouvement\\JoueurMouvement.cs",
+              "ToolTip": "Z:\\Utilisateur\\hamid\\Bureau\\jeu final\\jeu-final\\NeonBlitz3D\\Assets\\Script\\Mouvement\\JoueurMouvement.cs",
+              "RelativeToolTip": "Assets\\Script\\Mouvement\\JoueurMouvement.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAowEYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T00:29:37.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "Z:\\Utilisateur\\hamid\\Bureau\\jeu final\\jeu-final\\NeonBlitz3D\\Assets\\Neon Blitz\\Assets\\Script\\Movement\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Neon Blitz\\Assets\\Script\\Movement\\PlayerMovement.cs",
+              "ToolTip": "Z:\\Utilisateur\\hamid\\Bureau\\jeu final\\jeu-final\\NeonBlitz3D\\Assets\\Neon Blitz\\Assets\\Script\\Movement\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Neon Blitz\\Assets\\Script\\Movement\\PlayerMovement.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T00:15:06.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TextNbrEnnemi.cs",
+              "DocumentMoniker": "Z:\\Utilisateur\\hamid\\Bureau\\jeu final\\jeu-final\\NeonBlitz3D\\Assets\\Neon Blitz\\Assets\\Script\\UIText\\TextNbrEnnemi.cs",
+              "RelativeDocumentMoniker": "Assets\\Neon Blitz\\Assets\\Script\\UIText\\TextNbrEnnemi.cs",
+              "ToolTip": "Z:\\Utilisateur\\hamid\\Bureau\\jeu final\\jeu-final\\NeonBlitz3D\\Assets\\Neon Blitz\\Assets\\Script\\UIText\\TextNbrEnnemi.cs",
+              "RelativeToolTip": "Assets\\Neon Blitz\\Assets\\Script\\UIText\\TextNbrEnnemi.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T21:27:40.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EnemiDestroy.cs",
+              "DocumentMoniker": "Z:\\Utilisateur\\hamid\\Bureau\\jeu final\\jeu-final\\NeonBlitz3D\\Assets\\Neon Blitz\\Assets\\Script\\Destroy\\EnemiDestroy.cs",
+              "RelativeDocumentMoniker": "Assets\\Neon Blitz\\Assets\\Script\\Destroy\\EnemiDestroy.cs",
+              "ToolTip": "Z:\\Utilisateur\\hamid\\Bureau\\jeu final\\jeu-final\\NeonBlitz3D\\Assets\\Neon Blitz\\Assets\\Script\\Destroy\\EnemiDestroy.cs",
+              "RelativeToolTip": "Assets\\Neon Blitz\\Assets\\Script\\Destroy\\EnemiDestroy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T21:27:21.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "JoueurDestroy.cs",
+              "DocumentMoniker": "Z:\\Utilisateur\\hamid\\Bureau\\jeu final\\jeu-final\\NeonBlitz3D\\Assets\\Neon Blitz\\Assets\\Script\\Destroy\\JoueurDestroy.cs",
+              "RelativeDocumentMoniker": "Assets\\Neon Blitz\\Assets\\Script\\Destroy\\JoueurDestroy.cs",
+              "ToolTip": "Z:\\Utilisateur\\hamid\\Bureau\\jeu final\\jeu-final\\NeonBlitz3D\\Assets\\Neon Blitz\\Assets\\Script\\Destroy\\JoueurDestroy.cs",
+              "RelativeToolTip": "Assets\\Neon Blitz\\Assets\\Script\\Destroy\\JoueurDestroy.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T21:27:15.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HellicopeteEscape.cs",
+              "DocumentMoniker": "Z:\\Utilisateur\\hamid\\Bureau\\jeu final\\jeu-final\\NeonBlitz3D\\Assets\\Script\\ChangementScene\\HellicopeteEscape.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\ChangementScene\\HellicopeteEscape.cs",
+              "ToolTip": "Z:\\Utilisateur\\hamid\\Bureau\\jeu final\\jeu-final\\NeonBlitz3D\\Assets\\Script\\ChangementScene\\HellicopeteEscape.cs",
+              "RelativeToolTip": "Assets\\Script\\ChangementScene\\HellicopeteEscape.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T21:21:08.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HeliicoptereController.cs",
+              "DocumentMoniker": "Z:\\Utilisateur\\hamid\\Bureau\\jeu final\\jeu-final\\NeonBlitz3D\\Assets\\Script\\ChangementScene\\HeliicoptereController.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\ChangementScene\\HeliicoptereController.cs",
+              "ToolTip": "Z:\\Utilisateur\\hamid\\Bureau\\jeu final\\jeu-final\\NeonBlitz3D\\Assets\\Script\\ChangementScene\\HeliicoptereController.cs",
+              "RelativeToolTip": "Assets\\Script\\ChangementScene\\HeliicoptereController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T20:48:54.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TextSecVerte2D.cs",
+              "DocumentMoniker": "Z:\\Utilisateur\\hamid\\Bureau\\jeu final\\jeu-final\\NeonBlitz3D\\Assets\\Neon Blitz\\Assets\\Script\\UIText\\TextSecVerte2D.cs",
+              "RelativeDocumentMoniker": "Assets\\Neon Blitz\\Assets\\Script\\UIText\\TextSecVerte2D.cs",
+              "ToolTip": "Z:\\Utilisateur\\hamid\\Bureau\\jeu final\\jeu-final\\NeonBlitz3D\\Assets\\Neon Blitz\\Assets\\Script\\UIText\\TextSecVerte2D.cs",
+              "RelativeToolTip": "Assets\\Neon Blitz\\Assets\\Script\\UIText\\TextSecVerte2D.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAIwEsAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T18:56:36.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EnemieMovement.cs",
+              "DocumentMoniker": "Z:\\Utilisateur\\hamid\\Bureau\\jeu final\\jeu-final\\NeonBlitz3D\\Assets\\Neon Blitz\\Assets\\Script\\Movement\\EnemieMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Neon Blitz\\Assets\\Script\\Movement\\EnemieMovement.cs",
+              "ToolTip": "Z:\\Utilisateur\\hamid\\Bureau\\jeu final\\jeu-final\\NeonBlitz3D\\Assets\\Neon Blitz\\Assets\\Script\\Movement\\EnemieMovement.cs",
+              "RelativeToolTip": "Assets\\Neon Blitz\\Assets\\Script\\Movement\\EnemieMovement.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFIAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T18:50:13.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Coups.cs",
+              "DocumentMoniker": "Z:\\Utilisateur\\hamid\\Bureau\\jeu final\\jeu-final\\NeonBlitz3D\\Assets\\Neon Blitz\\Assets\\Script\\Balle\\Coups.cs",
+              "RelativeDocumentMoniker": "Assets\\Neon Blitz\\Assets\\Script\\Balle\\Coups.cs",
+              "ToolTip": "Z:\\Utilisateur\\hamid\\Bureau\\jeu final\\jeu-final\\NeonBlitz3D\\Assets\\Neon Blitz\\Assets\\Script\\Balle\\Coups.cs",
+              "RelativeToolTip": "Assets\\Neon Blitz\\Assets\\Script\\Balle\\Coups.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T18:49:31.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BalleEnnemi.cs",
+              "DocumentMoniker": "Z:\\Utilisateur\\hamid\\Bureau\\jeu final\\jeu-final\\NeonBlitz3D\\Assets\\Neon Blitz\\Assets\\Script\\Balle\\BalleEnnemi.cs",
+              "RelativeDocumentMoniker": "Assets\\Neon Blitz\\Assets\\Script\\Balle\\BalleEnnemi.cs",
+              "ToolTip": "Z:\\Utilisateur\\hamid\\Bureau\\jeu final\\jeu-final\\NeonBlitz3D\\Assets\\Neon Blitz\\Assets\\Script\\Balle\\BalleEnnemi.cs",
+              "RelativeToolTip": "Assets\\Neon Blitz\\Assets\\Script\\Balle\\BalleEnnemi.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwCUAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T18:37:33.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BalleScript.cs",
+              "DocumentMoniker": "Z:\\Utilisateur\\hamid\\Bureau\\jeu final\\jeu-final\\NeonBlitz3D\\Assets\\Neon Blitz\\Assets\\Script\\Balle\\BalleScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Neon Blitz\\Assets\\Script\\Balle\\BalleScript.cs",
+              "ToolTip": "Z:\\Utilisateur\\hamid\\Bureau\\jeu final\\jeu-final\\NeonBlitz3D\\Assets\\Neon Blitz\\Assets\\Script\\Balle\\BalleScript.cs",
+              "RelativeToolTip": "Assets\\Neon Blitz\\Assets\\Script\\Balle\\BalleScript.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAwwDIAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T18:31:27.231Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "7971330c-84bd-41db-81c5-ee2dbbf9025f",
+        "Display": 0,
+        "X": -186,
+        "Y": 178,
+        "Width": 1907,
+        "Height": 990,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Animation_State_Controller.cs",
+              "DocumentMoniker": "Z:\\Utilisateur\\hamid\\Bureau\\jeu final\\jeu-final\\NeonBlitz3D\\Assets\\Animation_State_Controller.cs",
+              "RelativeDocumentMoniker": "Assets\\Animation_State_Controller.cs",
+              "ToolTip": "Z:\\Utilisateur\\hamid\\Bureau\\jeu final\\jeu-final\\NeonBlitz3D\\Assets\\Animation_State_Controller.cs",
+              "RelativeToolTip": "Assets\\Animation_State_Controller.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAqwDkAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T00:57:57.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AutoController.cs",
+              "DocumentMoniker": "Z:\\Utilisateur\\hamid\\Bureau\\jeu final\\jeu-final\\NeonBlitz3D\\Assets\\Neon Blitz\\Assets\\Script\\Ganger\\AutoController.cs",
+              "RelativeDocumentMoniker": "Assets\\Neon Blitz\\Assets\\Script\\Ganger\\AutoController.cs",
+              "ToolTip": "Z:\\Utilisateur\\hamid\\Bureau\\jeu final\\jeu-final\\NeonBlitz3D\\Assets\\Neon Blitz\\Assets\\Script\\Ganger\\AutoController.cs",
+              "RelativeToolTip": "Assets\\Neon Blitz\\Assets\\Script\\Ganger\\AutoController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T20:53:25.632Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

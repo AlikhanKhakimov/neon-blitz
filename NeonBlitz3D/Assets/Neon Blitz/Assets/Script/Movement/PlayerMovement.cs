@@ -8,6 +8,7 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D Rb;
 
     private Vector2 moveDirection;
+    
 
     // Quand le joueur va prendre la pillule rouge, sa vitesse a augmenter de 40%
     private static bool peutPrendreDoubleDommage = false;
@@ -15,6 +16,8 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
+        
+        
         vitesseMovementOriginal = moveSpeed;
     }
 
@@ -33,10 +36,11 @@ public class PlayerMovement : MonoBehaviour
 
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");
-
-        moveDirection = new Vector2(moveX, moveY).normalized; 
-
+        
+        moveDirection = new Vector2(moveX, moveY).normalized;
+        
     }
+
 
     void Move() 
     {

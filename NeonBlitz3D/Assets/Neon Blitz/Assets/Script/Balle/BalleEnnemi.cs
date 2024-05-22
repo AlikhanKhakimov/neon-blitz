@@ -20,13 +20,26 @@ public class BalleEnnemi : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        switch (collision.gameObject.tag)
+
+        if (collision.CompareTag("Mur"))
         {
-            case "Player":
-                collision.gameObject.GetComponent<JoueurDestroy>().PrendreDommage(100);
-                Destroy(gameObject);
-                break;
+
+            print("test collision enemy mur");
+            Destroy(gameObject);
+
         }
+
+        else if (collision.CompareTag("Player"))
+        {
+            JoueurDestroy joueur = collision.GetComponent<JoueurDestroy>();
+            if (joueur != null)
+            {
+                joueur.PrendreDommage(50);
+                print("test collision enemy player");
+            }
+            Destroy(gameObject);
+        }
+        
     }
 
     public void Impact()
@@ -34,13 +47,5 @@ public class BalleEnnemi : MonoBehaviour
 
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.tag == "Player") {
-            Destroy(gameObject);
-        }
-
-        
-    }
     
 }

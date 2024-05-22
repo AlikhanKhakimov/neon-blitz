@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System;
 
 // Source: https://www.youtube.com/watch?v=YUcvy9PHeXs
 public class TextNbrEnnemi : MonoBehaviour
@@ -14,6 +15,7 @@ public class TextNbrEnnemi : MonoBehaviour
     private int nbrTués = 0;
 
     public static TextNbrEnnemi textNbrEnnemi;
+    public static bool haswon = false;
 
     // Start is called before the first frame update
     void Start()
@@ -29,7 +31,7 @@ public class TextNbrEnnemi : MonoBehaviour
 {
     if (ennemisListe.Length == nbrTués)
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            haswon = true;
     }
 }
     
@@ -43,5 +45,10 @@ public class TextNbrEnnemi : MonoBehaviour
     void UpdateTexte()
     {
         text.text = nbrTués + "/" + ennemisListe.Length + " Ennemis";
+
+        if (ennemisListe.Length == nbrTués)
+        {
+            text.text = "Niveau fini, dirigez-vous vers la voiture.";
+        }
     }
 }

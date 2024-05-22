@@ -45,8 +45,25 @@ public class BalleScript : MonoBehaviour
             }
             Destroy(gameObject);
         }
-        
-        
+        else if (collision.CompareTag("Rebond"))
+        {
+
+            rb.velocity = Vector2.Reflect(rb.velocity, collision.transform.right);
+
+        }
+        else if (collision.CompareTag("Mur"))
+        {
+
+
+            {
+
+                Debug.Log("Mur");
+                Destroy(gameObject);
+            }
+
+        }
+
+
 
     }
 
